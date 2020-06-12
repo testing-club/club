@@ -11,7 +11,11 @@
 
     <modules>
         <module>DarynaGrytsaieva</module>
+<<<<<<< HEAD
         <module>RitaKovaleva</module>
+=======
+        <module>EkaterinaUlitina</module>
+>>>>>>> 2ea4a6114cd0bb6e2cea96deecc66ec7bd97c5eb
     </modules>
 
     <properties>
