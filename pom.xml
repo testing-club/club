@@ -11,8 +11,10 @@
 
     <modules>
         <module>DarynaGrytsaieva</module>
+        <module>RitaKovaleva</module>
         <module>EkaterinaUlitina</module>
-        <module>NataliaBakelova</module>
+        <module>OlgaBerdnik</module>
+        <module>AnnaTertychna</module>
     </modules>
 
     <properties>
