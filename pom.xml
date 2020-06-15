@@ -11,14 +11,11 @@
 
     <modules>
         <module>DarynaGrytsaieva</module>
-<<<<<<< HEAD
         <module>IrinaAntoniuc</module>
-=======
         <module>RitaKovaleva</module>
         <module>EkaterinaUlitina</module>
         <module>OlgaBerdnik</module>
         <module>AnnaTertychna</module>
->>>>>>> f172536f376c99c1fc5bb8ce4ddd809bfbec42d4
     </modules>
 
     <properties>
