@@ -1,0 +1,21 @@
+System.out.print("Please enter your name: "); //sout
+
+//ctrl+alt+L для вставки пробелов
+
+//дз: поменять местами значения двух переменных без третьей, используя знаки кроме + и -
+
+//UPPERCASE
+//lowercase
+//camelCase
+//snake_case
+//Kebab-case
+
+Shift+Enter - перевод курсора в место, где нужно писать следующую строку между строку
+
+Ctrl+Shift+Enter - фигурные скобки
+
+|| или
+&& и
+
+//Alt+Enter для менюшки с подсказками
+//Ctrl + Q - справка
