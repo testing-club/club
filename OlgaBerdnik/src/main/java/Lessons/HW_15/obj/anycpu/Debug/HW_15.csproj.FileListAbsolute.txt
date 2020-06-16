@@ -1,5 +1,0 @@
-/Users/olgaberdnik/Projects/Lessons/HW_15/bin/Debug/HW_15.exe
-/Users/olgaberdnik/Projects/Lessons/HW_15/bin/Debug/HW_15.pdb
-/Users/olgaberdnik/Projects/Lessons/HW_15/obj/anycpu/Debug/HW_15.csproj.CoreCompileInputs.cache
-/Users/olgaberdnik/Projects/Lessons/HW_15/obj/anycpu/Debug/HW_15.exe
-/Users/olgaberdnik/Projects/Lessons/HW_15/obj/anycpu/Debug/HW_15.pdb
