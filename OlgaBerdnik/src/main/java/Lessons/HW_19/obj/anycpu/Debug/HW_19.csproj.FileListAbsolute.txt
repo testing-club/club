@@ -1,0 +1,5 @@
+/Users/olgaberdnik/Projects/Lessons/HW_19/obj/anycpu/Debug/HW_19.csproj.CoreCompileInputs.cache
+/Users/olgaberdnik/Projects/Lessons/HW_19/bin/Debug/HW_19.exe
+/Users/olgaberdnik/Projects/Lessons/HW_19/bin/Debug/HW_19.pdb
+/Users/olgaberdnik/Projects/Lessons/HW_19/obj/anycpu/Debug/HW_19.exe
+/Users/olgaberdnik/Projects/Lessons/HW_19/obj/anycpu/Debug/HW_19.pdb

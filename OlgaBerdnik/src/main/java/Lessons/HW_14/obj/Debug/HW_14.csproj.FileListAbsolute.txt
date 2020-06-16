@@ -1,0 +1,6 @@
+/Users/olgaberdnik/Projects/Lessons/HW_14/bin/Debug/HW_14.exe
+/Users/olgaberdnik/Projects/Lessons/HW_14/bin/Debug/HW_14.pdb
+/Users/olgaberdnik/Projects/Lessons/HW_14/obj/Debug/HW_14.csprojAssemblyReference.cache
+/Users/olgaberdnik/Projects/Lessons/HW_14/obj/Debug/HW_14.csproj.CoreCompileInputs.cache
+/Users/olgaberdnik/Projects/Lessons/HW_14/obj/Debug/HW_14.exe
+/Users/olgaberdnik/Projects/Lessons/HW_14/obj/Debug/HW_14.pdb
