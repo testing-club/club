@@ -37,7 +37,7 @@ public class Vera_javarush {
         System.out.println(name);
         int age = 29;
         System.out.println(age);
-        String city = "Hilversum";
+        String city = "Amsterdam";
         System.out.println(city);
     }
 }
