@@ -1,6 +1,6 @@
 package Lesson_6;
 
-public class lesson_6 {
+public class Exampl1_2 {
     public static void main (String[] args) {
         //Array of arrays
         //Declaration

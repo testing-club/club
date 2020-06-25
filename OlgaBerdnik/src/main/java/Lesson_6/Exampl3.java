@@ -3,7 +3,7 @@ package Lesson_6;
 import java.util.Arrays;
 import java.util.Random;
 
-public class lesson {
+public class Exampl3 {
     public static void main (String[] args) {
         //Fill 2-dimentional array with random numbers {{},{}}
 
@@ -16,5 +16,6 @@ public class lesson {
             }
             System.out.println();
         }
+        //Fast output
       System.out.println(  Arrays.deepToString(arr1)); // вывод всего массива
 }}
