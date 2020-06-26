@@ -9,28 +9,23 @@ public class DoubleBubbleSorting {
             arr[i] = Math.random()*100;
         }
 
-        double temp = 0;
-        int step = arr.length - 1;
-        boolean index = true;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < step; j++) {
-                if (arr[j] < arr[j + 1]) {
-                    index = false;
-                } else {
-                    temp = Math.min(arr[j], arr[j + 1]);
+            boolean wasReplaced = false;
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    double temp = Math.min(arr[j], arr[j + 1]);
                     arr[j + 1] = Math.max(arr[j], arr[j + 1]);
                     arr[j] = temp;
-                    index = true;
+                    wasReplaced = true;
                 }
             }
-            step--;
-            if (index == false) {
+            if (!wasReplaced) {
                 break;
             }
         }
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+        for (double v : arr) {
+            System.out.println(v);
         }
     }
 }
