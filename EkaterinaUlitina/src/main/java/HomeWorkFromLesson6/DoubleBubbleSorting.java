@@ -6,7 +6,7 @@ public class DoubleBubbleSorting {
         double[] arr = new double[10];
 
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = Math.random()*100;
+            arr[i] = Math.random() * 100;
         }
 
         for (int i = 0; i < arr.length; i++) {
