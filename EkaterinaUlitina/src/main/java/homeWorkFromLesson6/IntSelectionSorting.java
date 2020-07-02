@@ -1,6 +1,4 @@
-package HomeWorkFromLesson6;
-
-import java.util.Arrays;
+package homeWorkFromLesson6;
 
 public class IntSelectionSorting {
     public static void main(String[] args) {

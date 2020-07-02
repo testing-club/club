@@ -1,4 +1,4 @@
-package HomeWorkFromLesson6;
+package homeWorkFromLesson6;
 
 public class CopyIntArray {
     public static void main(String[] args) {

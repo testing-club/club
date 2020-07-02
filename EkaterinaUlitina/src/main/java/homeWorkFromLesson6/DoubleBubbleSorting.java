@@ -1,4 +1,4 @@
-package HomeWorkFromLesson6;
+package homeWorkFromLesson6;
 
 public class DoubleBubbleSorting {
     public static void main(String[] args) {

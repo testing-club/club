@@ -1,8 +1,8 @@
-package HomeWorkFromLesson6;
+package homeWorkFromLesson6;
 
 import java.util.Random;
 
-public class ArrayDiagonalMirror {
+public class ArrayVerticalMirror {
     public static void main(String[] args) {
 
         int[][] arr = new int[10][10];
@@ -16,15 +16,15 @@ public class ArrayDiagonalMirror {
             System.out.println();
         }
 
-        for (int i = 0; i < arr.length / 2; i++) {
+        for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length / 2; j++) {
                 int temporaryVariable = arr[i][j];
-                arr[i][j] = arr[9 - i][9 - j];
-                arr[9 - i][9 - j] = temporaryVariable;
+                arr[i][j] = arr[i][9 - j];
+                arr[i][9 - j] = temporaryVariable;
             }
         }
 
-        System.out.println("______________________");
+        System.out.println("_____________________________");
         for (int[] ints : arr) {
             for (int j = 0; j < arr[0].length; j++) {
                 System.out.print(ints[j] + " ");

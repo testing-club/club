@@ -1,7 +1,5 @@
-package Lesson3;
+package lesson3;
 
-import java.sql.PreparedStatement;
-import java.util.Random;
 import java.util.Scanner;
 
 public class Task2 {

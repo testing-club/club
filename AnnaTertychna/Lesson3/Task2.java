@@ -1,4 +1,4 @@
-package Lesson3;
+package lesson3;
 public class Task2 {
     public static void main(String[] args) {
         int[] arr1 = new int[5];
