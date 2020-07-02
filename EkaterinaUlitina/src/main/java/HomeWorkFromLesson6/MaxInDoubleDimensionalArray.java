@@ -11,7 +11,7 @@ public class MaxInDoubleDimensionalArray {
         int max = -99; //нижняя граница интервала
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
-                arr[i][j] = random.nextInt( 199) - 99;
+                arr[i][j] = random.nextInt(199) - 99;
                 max = Math.max(max, arr[i][j]);
                 System.out.print(arr[i][j] + " ");
             }

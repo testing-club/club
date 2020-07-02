@@ -11,7 +11,7 @@ public class ZerosAndStars {
                 } else {
                     arr[i][j] = '0';
                 }
-                System.out.print(arr[i][j]+" ");
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
