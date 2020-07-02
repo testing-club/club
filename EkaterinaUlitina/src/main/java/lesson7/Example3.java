@@ -6,7 +6,9 @@ public class Example3 {
         me.name = "Kate";
         me.age = 30;
         me.gender = Person.Gender.female;
+        me.printMyAgeInTenYears();
         me.introduce();
+        System.out.println("Kind: " + Person.kind);
 
 
         Person cat = new Person();

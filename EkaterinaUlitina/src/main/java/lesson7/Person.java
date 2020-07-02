@@ -4,13 +4,14 @@ public class Person {
     String name;
     int age;
     Gender gender;
+    final static String kind = "Human"; //can't be re-assigned
 
     public void introduce() {
         System.out.printf("Hello, I'm %s, I'm %s %d years old \n", name, gender, age);
     }
 
-    public int getMyAgeInTenYears(age) {
-        return age + 10;
+    public void printMyAgeInTenYears() {
+        System.out.println(age + 10);
     }
 
     Person() {
