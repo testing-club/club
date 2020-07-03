@@ -8,7 +8,7 @@ public class Vera_Lesson6_HW_Ex3 {
 
     public static void main (String[] args) {
 
-        int arr1[][] = new int[3][3];
+        int arr1[][] = new int[100][100];
 
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1[i].length; j++) {
