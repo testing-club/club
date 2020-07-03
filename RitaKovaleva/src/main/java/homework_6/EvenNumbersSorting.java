@@ -21,7 +21,7 @@ public class EvenNumbersSorting {
         System.out.println("++++++++++++++++++++++");
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
-                if (i == 0 || i % 2 == 0) {
+                if (i % 2 == 0) {
                     Arrays.sort(array[i]);
                 } else {
                     Arrays.sort(array[i], Collections.reverseOrder());
