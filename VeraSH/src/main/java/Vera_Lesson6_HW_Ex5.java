@@ -14,7 +14,6 @@ public class Vera_Lesson6_HW_Ex5 {
         // а можно отсортировать по убыванию каждую строку). Вывести преобразованный массив на экран.
 
         int arr1[][] = new int[6][7];
-        int maxNumber = -1;
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1[i].length; j++) {
                 arr1[i][j] = new Random().nextInt(10);
@@ -34,8 +33,8 @@ public class Vera_Lesson6_HW_Ex5 {
     }
 
     private static void selectionSort(int[] arr1) {
-            int i = 0;
-      //  for (int i = 0; i < arr1.length; i++) { сортировка всего ряда
+        // int i = 0; // поменять местами первый элемент с наибольшим
+        for (int i = 0; i < arr1.length; i++) { //сортировка всего ряда
             int min = arr1[i];
             int minNumber = i;
 
@@ -46,11 +45,12 @@ public class Vera_Lesson6_HW_Ex5 {
                     minNumber = j;
                 }
             }
-                if (i != minNumber) {
-                    int tmp = arr1[i];
-                    arr1[i] = arr1[minNumber];
-                    arr1[minNumber] = tmp;
+            if (i != minNumber) {
+                int tmp = arr1[i];
+                arr1[i] = arr1[minNumber];
+                arr1[minNumber] = tmp;
             }
         }
     }
+}
 
