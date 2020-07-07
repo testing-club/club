@@ -6,7 +6,7 @@ public class Vera_Lesson6_HW_Ex3 {
     // 1. Создать массив 100*100 из обьектов класса int, заполнить случайными числами.
     // 2. Создать второй пустой массив 100*100 и скопировать значения из первого во второй.
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
 
         int arr1[][] = new int[100][100];
 
@@ -17,16 +17,18 @@ public class Vera_Lesson6_HW_Ex3 {
             }
             System.out.println();
         }
+        System.out.println("________________________");
         copyFullArrayUsingArrayCopyOf(arr1);
     }
 
-    private static void copyFullArrayUsingArrayCopyOf(int[][] arr1){
-            int arr2 [][] = Arrays.copyOf(arr1, arr1.length);
-        Print2DArray(arr2);
+    private static void copyFullArrayUsingArrayCopyOf(int[][] arr1) {
+        int arr2[][] = Arrays.copyOf(arr1, arr1.length);
+        print2DArray(arr2);
     }
-    private static void Print2DArray (int [][] arr) {
-        for (int i = 0; i < arr.length; i++){
-            for (int j = 0; j < arr[i].length; j++){
+
+    private static void print2DArray(int[][] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
