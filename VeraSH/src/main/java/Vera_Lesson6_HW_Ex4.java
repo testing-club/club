@@ -11,20 +11,17 @@ public class Vera_Lesson6_HW_Ex4 {
         int maxNumber = -99;
         for (int i = 0; i < arr1.length; i++) {
             for (int j = 0; j < arr1[i].length; j++) {
-                arr1[i][j] = new Random().nextInt((99 + 99 + 1)) - 99;
-                System.out.print(arr1[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-        for (int i = 0; i < arr1.length; i++) {
-            for (int j = 0; j < arr1[i].length; j++) {
+                {
+                    arr1[i][j] = new Random().nextInt((99 + 99 + 1)) - 99;
+                    System.out.print(arr1[i][j] + "\t");
+                }
                 if (maxNumber <= arr1[i][j]) {
                     maxNumber = arr1[i][j];
                 }
             }
+            System.out.println();
         }
-        System.out.println("Максимальное значение элемента массива:" + maxNumber);
+        System.out.println("Max array's number is " + maxNumber);
     }
 }
 
