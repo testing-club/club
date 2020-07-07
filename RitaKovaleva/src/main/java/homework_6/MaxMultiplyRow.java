@@ -9,7 +9,7 @@ package homework_6;
 public class MaxMultiplyRow {
     public static void main(String[] args) {
         int[][] array = new int[7][4];
-        int maxID = 0;
+        int maxId = 0;
         int max = Integer.MIN_VALUE;
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
@@ -25,9 +25,9 @@ public class MaxMultiplyRow {
             }
             if (multi > max) {
                 max = multi;
-                maxID = i;
+                maxId = i;
             }
         }
-        System.out.println("The maximal index of the row is " + maxID);
+        System.out.println("The maximal index of the row is " + maxId);
     }
 }
