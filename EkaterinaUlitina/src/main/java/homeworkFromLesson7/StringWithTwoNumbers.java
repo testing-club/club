@@ -12,12 +12,10 @@ public class StringWithTwoNumbers {
     }
 
     public static StringBuilder useStringBuilder(int firstNum, int secondNum, char action) {
-        StringBuilder string1 = new StringBuilder();
-        StringBuilder string2 = new StringBuilder();
-        StringBuilder string3 = new StringBuilder();
+        StringBuilder builder = new StringBuilder();
         int result = action == '+' ? firstNum + secondNum : action == '-' ? firstNum - secondNum : firstNum * secondNum;
 
-        return string1.append(firstNum).append(" ").append(action).append(" ").append(secondNum).append(" = ").append(result);
+        return builder.append(firstNum).append(" ").append(action).append(" ").append(secondNum).append(" = ").append(result);
     }
 
     public static void changeEqualitySymbolWithInsertAndDelete(StringBuilder string) {
