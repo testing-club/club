@@ -34,7 +34,7 @@ public class ILikeJava {
     }
 
     public static void indexOfSubstring(String string, String substring) {
-        System.out.println("Index of substring '"+ substring+ "' is "+ string.indexOf(substring));
+        System.out.println("Index of substring '" + substring + "' is " + string.indexOf(substring));
     }
 
     public static void changeAToO(String string) {
@@ -50,6 +50,6 @@ public class ILikeJava {
     }
 
     public static void cutSubstring(String string, String substring) {
-        System.out.println(string.substring(string.indexOf(substring), string.indexOf(substring)+substring.length()));
+        System.out.println(string.substring(string.indexOf(substring), string.indexOf(substring) + substring.length()));
     }
 }
