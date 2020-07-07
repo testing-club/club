@@ -10,27 +10,23 @@ public class Vera_Lesson6_HW_Ex1 {
 
         double[] arr1 = new double[9];
 
-        for (int j = 0; j < arr1.length; j++) { // interaction over elements
-            arr1[j] = new Random().nextDouble();
-
+        for (int i = 0; i < arr1.length; i++) { // interaction over elements
+            arr1[i] = new Random().nextDouble();
         }
+        boolean isSorted = false;
+        double buf;
+        while (!isSorted) {
+            isSorted = true;
+            for (int i = 0; i < arr1.length - 1; i++) {
+                if (arr1[i] > arr1[i + 1]) {
+                    isSorted = false;
 
-
-            boolean isSorted = false;
-            double buf;
-            while(!isSorted) {
-                isSorted = true;
-                for (int j = 0; j < arr1.length-1; j++) {
-                    if(arr1[j] > arr1[j+1]){
-                        isSorted = false;
-
-                        buf = arr1[j];
-                        arr1[j] = arr1[j+1];
-                        arr1[j+1] = buf;
-                    }
+                    buf = arr1[i];
+                    arr1[i] = arr1[i + 1];
+                    arr1[i + 1] = buf;
                 }
             }
-            System.out.println(Arrays.toString(arr1));
-
         }
+        System.out.println(Arrays.toString(arr1));
     }
+}
