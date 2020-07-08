@@ -12,7 +12,7 @@ public class TwoWordsWithEvenNumberOfLetters {
     }
 
     public static void concatenationTwoHalves(String firstWord, String secondWord) {
-        System.out.println(firstWord.substring(0, firstWord.length()/2).concat(secondWord.substring(secondWord.length()/2, secondWord.length())));
+        System.out.println(firstWord.substring(0, firstWord.length() / 2).concat(secondWord.substring(secondWord.length() / 2, secondWord.length())));
     }
 
     public static String enterWord() {
