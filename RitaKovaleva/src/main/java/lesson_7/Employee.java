@@ -14,7 +14,7 @@ public class Employee {
     }
 
     public int getSalary() {
-        return salary;
+        return this.salary;
     }
 
     public void setName(String name) {
