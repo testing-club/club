@@ -1,4 +1,4 @@
-package lesson9.Example;
+package lesson.Example;
 
 public class Human implements Swimmable {
     @Override

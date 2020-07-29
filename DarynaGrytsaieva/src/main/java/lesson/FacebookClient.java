@@ -1,4 +1,4 @@
-package lesson9;
+package lesson;
 
 public class FacebookClient implements PublicPoster, MessageSender {
     private String facebookId;
@@ -22,6 +22,6 @@ public class FacebookClient implements PublicPoster, MessageSender {
 
     @Override
     public String getMessengerName() {
-        return "Facebook";
+        return "FacebookClient";
     }
 }

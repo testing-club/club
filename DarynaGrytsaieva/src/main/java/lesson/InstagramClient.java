@@ -1,4 +1,4 @@
-package lesson9;
+package lesson;
 
 public class InstagramClient implements MessageSender {
     private String instagramId;
