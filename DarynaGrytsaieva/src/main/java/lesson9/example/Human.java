@@ -1,4 +1,4 @@
-package lesson9;
+package lesson9.example;
 
 
 public class Human implements Swimmable {
