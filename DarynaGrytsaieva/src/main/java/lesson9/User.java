@@ -1,5 +1,6 @@
 package lesson9;
 
+import java.util.ArrayList;
 import java.util.UUID;
 
 public class User {
@@ -70,5 +71,15 @@ public class User {
 
     public void setInstagramId(String instagramId) {
         this.instagramId = instagramId;
+    }
+
+
+    public ArrayList<MessageSender>  getSocialMediaList() {
+        ArrayList<MessageSender> socialMediaList = new ArrayList<>();
+
+        if(this.facebookId !=null) socialMediaList.add(new FacebookClient(facebookId));
+        if(this.telegramId !=null) socialMediaList.add(new TelegramClient(telegramId));
+        if(this.instagramId !=null) socialMediaList.add(new InstagramClient(instagramId));
+        return socialMediaList;
     }
 }
