@@ -26,8 +26,9 @@ public class OnlineStore {
         sendNewCollectionMailOut();
 
 
-        //Task send: this to Tom's instagram
+        //Task send this to Tom's instagram
         File postCard = new File("//path-to-file");
+        new InstagramClient(user3.getInstagramId()).postPublicMessage(postCard);
 
     }
 
