@@ -2,6 +2,9 @@ package homeworkFromLesson9;
 
 import java.util.Scanner;
 
+//повторила свою прошлую ошибку и смёрджила эту дз без ревью вместе с предыдущими утверждёнными изменениями.
+//понимаю, что сделала как-то криво и с костылями, но как исправить, не придумала
+
 public class RitasExercise {
     public static void main(String[] args) {
         System.out.print("Enter a string with lowercase letters: ");
