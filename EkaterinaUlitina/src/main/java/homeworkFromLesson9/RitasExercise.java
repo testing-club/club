@@ -8,10 +8,10 @@ public class RitasExercise {
         System.out.print("Enter a string with lowercase letters: ");
         Scanner scanner = new Scanner(System.in);
         String string = scanner.nextLine();
-        System.out.println("Number of substrings is " + NumberOfSubstrings(string));
+        System.out.println("Number of substrings is " + numberOfSubstrings(string));
     }
 
-    public static int NumberOfSubstrings(String string) {
+    public static int numberOfSubstrings(String string) {
         int count = 1;
         int startedPoint = 0;
         for (int i = 1; i < string.length(); i += 1) {
